@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій вебсайт з контентом</title>
+    <style>
+        /* Стилі для заголовків, параграфів та інших елементів */
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+        }
+        /* Стилі для форми та кнопок */
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="email"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        /* Стилі для списків */
+        ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+        /* Стилі для таблиць */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Стилі для відео */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe, .video-container object, .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Наявність</h1>
+
+<button onclick="location.href='home.html'">На головну сторінку</button>
+
+<h3>Види байків</h3>
+<div>
+    <ul>
+        <li>Спортбайк</li>
+        <li>Ендура</li>
+        <li>Круїзер</li>
+    </ul>
+</div>
+
+<h4>Таблиця</h4>
+<table>
+    <tr>
+        <th>Марка</th>
+        <th>Ціна</th>
+    </tr>
+    <tr>
+        <td>Honda CBR 1000RR</td>
+        <td>10000</td>
+    </tr>
+    <tr>
+        <td>Yamaha Serow 250</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>Harley-Davidson FLHTK Electra Glide Ultra Limited</td>
+        <td>25000</td>
+    </tr>
+</table>
+
+<h5>Відео</h5>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/COrAcPrR8yo" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+</body>
+</html>
